@@ -25,7 +25,7 @@ export class CreatePostComponent implements OnInit {
   }
 
   cancel() {
-    console.log("cancel create post");
+    this.home();
   }
 
   home() {
